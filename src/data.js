@@ -10,7 +10,7 @@ import skechers from "./audio/Skechers.mp3";
 function chillHop() {
   return [
     {
-      name: "death bed (coffee for your head)",
+      name: "哈哈哈 (coffee for your head)",
       cover:
         "https://shdbdecdnems03.cdnsrv.jio.com/c.saavncdn.com/180/death-bed-English-2020-20200228133600-500x500.jpg",
       artist: "Powfu, beabadoobee",
@@ -20,7 +20,7 @@ function chillHop() {
       active: true,
     },
     {
-      name: "Dynamite",
+      name: "欢迎Dynamite",
       cover:
         "https://upload.wikimedia.org/wikipedia/en/5/5f/BTS_-_Dynamite_%28official_cover%29.png",
       artist: "BTS",
@@ -30,7 +30,7 @@ function chillHop() {
       active: false,
     },
     {
-      name: "Mood",
+      name: "第三Mood",
       cover:
         "https://upload.wikimedia.org/wikipedia/en/1/1d/24kGoldn_-_Mood.png",
       artist: "24kgoldn",
@@ -40,9 +40,9 @@ function chillHop() {
       active: false,
     },
     {
-      name: "Stuck with U",
+      name: "第四Stuck with U",
       cover:
-        "https://upload.wikimedia.org/wikipedia/en/d/dc/Justin_Bieber_and_Ariana_Grande_-_Stuck_with_You.png",
+        "https://img.alicdn.com/bao/uploaded/i1/2172427566/O1CN01kf4vBN25lHBrauwWP_!!0-item_pic.jpg",
       artist: "Ariana Grande, Justine Bieber",
       audio: stuckWithU,
       color: ["#F6F6EE", "#888984"],
@@ -60,7 +60,7 @@ function chillHop() {
       active: false,
     },
     {
-      name: "Skechers",
+      name: "d第五Skechers",
       cover:
         "https://shdbdecdnems04.cdnsrv.jio.com/c.saavncdn.com/296/Skechers-English-2020-20200403180832-500x500.jpg",
       artist: "DripReport",
