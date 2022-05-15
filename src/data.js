@@ -81,6 +81,64 @@ function chillHop() {
       id: uuidv4(),
       active: false,
     },
+    {
+      name: "歌曲名称",
+      artist: "歌手，专辑",
+      audio: skechers,
+      color: ["#DEC254", "#E18BB5"],
+      id: uuidv4(),
+      active: false,
+    },
+
+    {
+      name: "歌曲名称",
+      artist: "歌手，专辑",
+      audio: skechers,
+      color: ["#DEC254", "#E18BB5"],
+      id: uuidv4(),
+      active: false,
+    },
+    {
+      name: "歌曲名称",
+      artist: "歌手，专辑",
+      audio: skechers,
+      color: ["#DEC254", "#E18BB5"],
+      id: uuidv4(),
+      active: false,
+    },
+    {
+      name: "歌曲名称",
+      artist: "歌手，专辑",
+      audio: skechers,
+      color: ["#DEC254", "#E18BB5"],
+      id: uuidv4(),
+      active: false,
+    },
+    {
+      name: "歌曲名称",
+      artist: "歌手，专辑",
+      audio: skechers,
+      color: ["#DEC254", "#E18BB5"],
+      id: uuidv4(),
+      active: false,
+    },
+    {
+      name: "歌曲名称",
+      artist: "歌手，专辑",
+      audio: skechers,
+      color: ["#DEC254", "#E18BB5"],
+      id: uuidv4(),
+      active: false,
+    },
+    {
+      name: "歌曲名称",
+      artist: "歌手，专辑",
+      audio: skechers,
+      color: ["#DEC254", "#E18BB5"],
+      id: uuidv4(),
+      active: false,
+    },
+    
   ];
 }
 
