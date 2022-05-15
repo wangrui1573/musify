@@ -13,7 +13,7 @@ function chillHop() {
     {
       name: "爱丫爱丫",
       cover:
-        "https://img10.360buyimg.com/n1/jfs/t1/182705/23/14215/159141/60efd615Eb18884b0/1ca9db4c1aacf75a.jpg",
+        "https://shdbdecdnems03.cdnsrv.jio.com/c.saavncdn.com/180/death-bed-English-2020-20200228133600-500x500.jpg",
       artist: "Powfu, beabadoobee",
       audio: aiya,
       color: ["#ADA5CE", "#213045"],
