@@ -13,7 +13,8 @@ function chillHop() {
     {
       name: "哈哈哈 (coffee for your head)",
       cover:
-        "https://shdbdecdnems03.cdnsrv.jio.com/c.saavncdn.com/180/death-bed-English-2020-20200228133600-500x500.jpg",
+        "https://upload.wikimedia.org/wikipedia/en/1/1d/24kGoldn_-_Mood.png",
+      artist: "24kgoldn",
       artist: "Powfu, beabadoobee",
       audio: deathBed,
       color: ["#ADA5CE", "#213045"],
