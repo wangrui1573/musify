@@ -24,7 +24,7 @@ function chillHop() {
     {
       name: "爱丫爱丫",
       cover:
-        "",
+        "https://pic.baike.soso.com/ugc/baikepic2/17701/20170908013217-955388477.jpg/300",
       artist: "Powfu, beabadoobee",
       audio: 爱丫爱丫,
       color: ["#ADA5CE", "#213045"],
