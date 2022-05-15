@@ -23,6 +23,9 @@ function chillHop() {
     },
     {
       name: "爱丫爱丫",
+      cover:
+        "",
+      artist: "Powfu, beabadoobee",
       audio: 爱丫爱丫,
       color: ["#ADA5CE", "#213045"],
       id: uuidv4(),
