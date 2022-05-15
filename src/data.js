@@ -1,7 +1,7 @@
 import { v4 as uuidv4 } from "uuid";
 
 import deathBed from "./audio/Death_Bed.mp3";
-import dynamite from "./audio/Dynamite.mp3";
+import dynamite from "https://file-examples.com/storage/feb8f98f1d627c0dc94b8cf/2017/11/file_example_MP3_700KB.mp3";
 import mood from "./audio/Mood.mp3";
 import stuckWithU from "./audio/Stuck_With_U.mp3";
 import cradles from "./audio/Cradles.mp3";
