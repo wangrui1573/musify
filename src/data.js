@@ -14,7 +14,7 @@ function chillHop() {
     {
       name: "爱丫爱丫",
       cover:
-        "https://shdbdecdnems03.cdnsrv.jio.com/c.saavncdn.com/180/death-bed-English-2020-20200228133600-500x500.jpg",
+        "https://pic.baike.soso.com/ugc/baikepic2/17701/20170908013217-955388477.jpg/300",
       artist: "Powfu, beabadoobee",
       audio: aiya,
       color: ["#ADA5CE", "#213045"],
