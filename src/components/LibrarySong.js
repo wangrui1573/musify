@@ -39,8 +39,8 @@ const LibrarySong = ({
     >
 
       <div className="song-description">
-        <h3>{song.name}</h3>
-        <h4>{song.artist}</h4>
+        <h4>{song.name}</h4>
+        <h5>{song.artist}</h5>
       </div>
     </div>
   );
