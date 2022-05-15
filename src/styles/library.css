@@ -17,7 +17,8 @@
 .library-song {
   display: flex;
   align-items: center;
-  padding: 1rem 2rem 1rem 2rem;
+    /* 列表缩进 */
+  padding: 1rem 1rem 1rem 1rem;
   cursor: pointer;
   /* 设置列表高度 */
   height: 15px;
