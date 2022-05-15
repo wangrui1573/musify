@@ -6,9 +6,20 @@ import mood from "./audio/Mood.mp3";
 import stuckWithU from "./audio/Stuck_With_U.mp3";
 import cradles from "./audio/Cradles.mp3";
 import skechers from "./audio/Skechers.mp3";
+import aiya from "./audio/爱丫爱丫.flac";
 
 function chillHop() {
-  return [
+  return 
+    {
+      name: "爱丫爱丫",
+      cover:
+        "https://pic.baike.soso.com/ugc/baikepic2/17701/20170908013217-955388477.jpg/300",
+      artist: "Powfu, beabadoobee",
+      audio: aiya,
+      color: ["#ADA5CE", "#213045"],
+      id: uuidv4(),
+      active: true,
+    },
     {
       name: "哈哈哈 (coffee for your head)",
       cover:
