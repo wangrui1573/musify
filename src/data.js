@@ -25,7 +25,7 @@ function chillHop() {
       name: "爱丫爱丫",
       cover:
         "https://pic.baike.soso.com/ugc/baikepic2/17701/20170908013217-955388477.jpg/300",
-      artist: "Powfu, beabadoobee",
+      artist: "Powfu,呵呵哒",
       audio: 爱丫爱丫,
       color: ["#ADA5CE", "#213045"],
       id: uuidv4(),
@@ -55,7 +55,7 @@ function chillHop() {
       name: "第四Stuck with U",
       cover:
         "https://img.alicdn.com/bao/uploaded/i1/2172427566/O1CN01kf4vBN25lHBrauwWP_!!0-item_pic.jpg",
-      artist: "Ariana Grande, Justine Bieber",
+      artist: "张三 李四",
       audio: stuckWithU,
       color: ["#F6F6EE", "#888984"],
       id: uuidv4(),
