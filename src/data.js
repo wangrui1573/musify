@@ -83,6 +83,8 @@ function chillHop() {
     },
     {
       name: "歌曲名称",
+      cover:
+      "https://shdbdecdnems04.cdnsrv.jio.com/c.saavncdn.com/296/Skechers-English-2020-20200403180832-500x500.jpg",
       artist: "歌手，专辑",
       audio: skechers,
       color: ["#DEC254", "#E18BB5"],
@@ -92,6 +94,8 @@ function chillHop() {
 
     {
       name: "歌曲名称",
+      cover:
+      "https://shdbdecdnems04.cdnsrv.jio.com/c.saavncdn.com/296/Skechers-English-2020-20200403180832-500x500.jpg",
       artist: "歌手，专辑",
       audio: skechers,
       color: ["#DEC254", "#E18BB5"],
@@ -100,6 +104,8 @@ function chillHop() {
     },
     {
       name: "歌曲名称",
+      cover:
+      "https://shdbdecdnems04.cdnsrv.jio.com/c.saavncdn.com/296/Skechers-English-2020-20200403180832-500x500.jpg",
       artist: "歌手，专辑",
       audio: skechers,
       color: ["#DEC254", "#E18BB5"],
@@ -108,6 +114,8 @@ function chillHop() {
     },
     {
       name: "歌曲名称",
+      cover:
+      "https://shdbdecdnems04.cdnsrv.jio.com/c.saavncdn.com/296/Skechers-English-2020-20200403180832-500x500.jpg",
       artist: "歌手，专辑",
       audio: skechers,
       color: ["#DEC254", "#E18BB5"],
@@ -116,6 +124,8 @@ function chillHop() {
     },
     {
       name: "歌曲名称",
+      cover:
+      "https://shdbdecdnems04.cdnsrv.jio.com/c.saavncdn.com/296/Skechers-English-2020-20200403180832-500x500.jpg",
       artist: "歌手，专辑",
       audio: skechers,
       color: ["#DEC254", "#E18BB5"],
@@ -124,6 +134,8 @@ function chillHop() {
     },
     {
       name: "歌曲名称",
+      cover:
+      "https://shdbdecdnems04.cdnsrv.jio.com/c.saavncdn.com/296/Skechers-English-2020-20200403180832-500x500.jpg",
       artist: "歌手，专辑",
       audio: skechers,
       color: ["#DEC254", "#E18BB5"],
@@ -132,6 +144,8 @@ function chillHop() {
     },
     {
       name: "歌曲名称",
+      cover:
+      "https://shdbdecdnems04.cdnsrv.jio.com/c.saavncdn.com/296/Skechers-English-2020-20200403180832-500x500.jpg",
       artist: "歌手，专辑",
       audio: skechers,
       color: ["#DEC254", "#E18BB5"],
