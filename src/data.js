@@ -8,25 +8,25 @@ import cradles from "./audio/Cradles.mp3";
 import skechers from "./audio/Skechers.mp3";
 import aiya from "./audio/爱丫爱丫.flac";
 
+
 function chillHop() {
-  return 
+  return [
     {
-      name: "哈哈哈 (coffee for your head)",
+      name: "爱丫爱丫",
       cover:
-        "https://upload.wikimedia.org/wikipedia/en/1/1d/24kGoldn_-_Mood.png",
-      artist: "24kgoldn",
+        "https://shdbdecdnems03.cdnsrv.jio.com/c.saavncdn.com/180/death-bed-English-2020-20200228133600-500x500.jpg",
       artist: "Powfu, beabadoobee",
-      audio: deathBed,
+      audio: aiya,
       color: ["#ADA5CE", "#213045"],
       id: uuidv4(),
       active: true,
     },
     {
-      name: "爱丫爱丫",
+      name: "欢迎Dynamite",
       cover:
         "https://upload.wikimedia.org/wikipedia/en/5/5f/BTS_-_Dynamite_%28official_cover%29.png",
       artist: "BTS",
-      audio: aiya,
+      audio: dynamite,
       color: ["#FBE2E6", "#DD5B8C"],
       id: uuidv4(),
       active: false,
@@ -73,5 +73,7 @@ function chillHop() {
     },
   ];
 }
+
+export default chillHop;
 
 export default chillHop;
