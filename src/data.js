@@ -11,6 +11,16 @@ import aiya from "./audio/爱丫爱丫.flac";
 
 function chillHop() {
   return [
+     {
+      name: "爱丫爱丫2",
+      cover:
+        "https://upload.wikimedia.org/wikipedia/zh/4/4d/16%E6%9C%AA%E6%88%90%E5%B9%B4.jpg",
+      artist: "BY2 十六岁未成年",
+      audio: aiya,
+      color: ["#ADA5CE", "#213045"],
+      id: uuidv4(),
+      active: true,
+    },
     {
       name: "爱丫爱丫",
       cover:
