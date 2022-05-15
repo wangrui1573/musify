@@ -11,16 +11,6 @@ import aiya from "./audio/爱丫爱丫.flac";
 function chillHop() {
   return 
     {
-      name: "爱丫爱丫",
-      cover:
-        "https://shdbdecdnems03.cdnsrv.jio.com/c.saavncdn.com/180/death-bed-English-2020-20200228133600-500x500.jpg",
-      artist: "Powfu, beabadoobee",
-      audio: aiya,
-      color: ["#ADA5CE", "#213045"],
-      id: uuidv4(),
-      active: true,
-    },
-    {
       name: "哈哈哈 (coffee for your head)",
       cover:
         "https://shdbdecdnems03.cdnsrv.jio.com/c.saavncdn.com/180/death-bed-English-2020-20200228133600-500x500.jpg",
@@ -31,11 +21,11 @@ function chillHop() {
       active: true,
     },
     {
-      name: "欢迎Dynamite",
+      name: "爱丫爱丫",
       cover:
         "https://upload.wikimedia.org/wikipedia/en/5/5f/BTS_-_Dynamite_%28official_cover%29.png",
       artist: "BTS",
-      audio: dynamite,
+      audio: aiya,
       color: ["#FBE2E6", "#DD5B8C"],
       id: uuidv4(),
       active: false,
