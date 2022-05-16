@@ -15,8 +15,7 @@ let res_components = {}
 allComponents.keys().forEach(fileName => {
   let comp = allComponents(fileName)
   res_components[fileName.replace(/^\.\/(.*)\.\w+$/, '$1')] = comp.default
-}
-
+})
 
 
 
