@@ -8,7 +8,7 @@ import cradles from "./audio/Cradles.mp3";
 import skechers from "./audio/Skechers.mp3";
 import 爱丫爱丫 from "./audio/爱丫爱丫.flac";
 
-const s = 'https://file-examples.com/storage/fe1e6df5d562827b19d81ba/2017/11/file_example_MP3_700KB.mp3'
+const s = 'https://raw.githubusercontent.com/wangrui1573/Vue-Music-Player-1/main/src/assets/Nick%20Mulvey%20-%20Begin%20Again.mp3'
 
 
 function chillHop() {
