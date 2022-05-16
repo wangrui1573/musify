@@ -1,21 +1,17 @@
 import { v4 as uuidv4 } from "uuid";
 
-import deathBed from "./audio/Death_Bed.mp3";
-import dynamite from "./audio/Dynamite.mp3";
-import mood from "./audio/Mood.mp3";
-import stuckWithU from "./audio/Stuck_With_U.mp3";
-import cradles from "./audio/Cradles.mp3";
-import skechers from "./audio/Skechers.mp3";
+//import deathBed from "./audio/Death_Bed.mp3";
+//import dynamite from "./audio/Dynamite.mp3";
+//import mood from "./audio/Mood.mp3";
+//import stuckWithU from "./audio/Stuck_With_U.mp3";
+//import cradles from "./audio/Cradles.mp3";
+//import skechers from "./audio/Skechers.mp3";
 //import 爱丫爱丫 from "./audio/爱丫爱丫.flac";
 
 
 // Load every component from _common
-const req = require.context('./audio/', false, /\.(mp3|flac)$/i)
-for (const key of req.keys()) {
-  const name = key.match(/\w+/)![0]
-  Vue.component(name, req(key).default)
-}
-
+const ComponentContext = require.context('./', true, /\.(mp3|flac)$/i)
+Vue.component(componentName, () => ComponentContext(componentFilePath));
 
 
 function chillHop() {
