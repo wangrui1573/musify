@@ -8,7 +8,7 @@ import cradles from "./audio/Cradles.mp3";
 import skechers from "./audio/Skechers.mp3";
 import 爱丫爱丫 from "./audio/爱丫爱丫.flac";
 
-const s = 'https://raw.githubusercontent.com/wangrui1573/musify/main/src/audio/Mood.mp3'
+const s = 'ys-c.ysepan.com/618771516/217825236/h463K2J663KOKLTHiKVf04/01.qilixiang.mp3'
 
 
 function chillHop() {
