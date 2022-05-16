@@ -9,7 +9,8 @@ import skechers from "./audio/Skechers.mp3";
 import 爱丫爱丫 from "./audio/爱丫爱丫.flac";
 import test from "http://ys-d.ysepan.com/604688930/318647726/i571G66437LPJIUIjHt9d4/%E7%A7%91%E6%8A%80%E5%A4%A7%E6%B0%94Z.mp3";
 
-
+const test = document.createElement("AUDIO");
+test.src = 'http://ys-d.ysepan.com/604688930/318647726/i571G66437LPJIUIjHt9d4/%E7%A7%91%E6%8A%80%E5%A4%A7%E6%B0%94Z.mp3';
 
 
 function chillHop() {
