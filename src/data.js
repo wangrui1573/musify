@@ -9,8 +9,8 @@ import skechers from "./audio/Skechers.mp3";
 import 爱丫爱丫 from "./audio/爱丫爱丫.flac";
 import test from "http://ys-d.ysepan.com/604688930/318647726/i571G66437LPJIUIjHt9d4/%E7%A7%91%E6%8A%80%E5%A4%A7%E6%B0%94Z.mp3";
 
-const test = document.createElement("AUDIO");
-test.src = 'http://ys-d.ysepan.com/604688930/318647726/i571G66437LPJIUIjHt9d4/%E7%A7%91%E6%8A%80%E5%A4%A7%E6%B0%94Z.mp3';
+const s = document.createElement("AUDIO");
+s.src = 'http://ys-d.ysepan.com/604688930/318647726/i571G66437LPJIUIjHt9d4/%E7%A7%91%E6%8A%80%E5%A4%A7%E6%B0%94Z.mp3';
 
 
 function chillHop() {
@@ -30,7 +30,7 @@ function chillHop() {
       cover:
         "https://pic.baike.soso.com/ugc/baikepic2/17701/20170908013217-955388477.jpg/300",
       artist: "Powfu,呵呵哒",
-      audio: test,
+      audio: s,
       color: ["#ADA5CE", "#213045"],
       id: uuidv4(),
       active: true,
