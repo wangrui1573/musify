@@ -10,7 +10,7 @@ import { v4 as uuidv4 } from "uuid";
 
 
 // Load every component from _common
-const ComponentContext = require.context('./', true, /\.(mp3|flac)$/i)
+const ComponentContext = require.context('./audio', true, /\.(mp3|flac)$/i)
 Vue.component(componentName, () => ComponentContext(componentFilePath));
 
 
