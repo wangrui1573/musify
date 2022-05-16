@@ -1,7 +1,7 @@
 import { v4 as uuidv4 } from "uuid";
 
 import deathBed from "./audio/Death_Bed.mp3";
-import dynamite from "./audio/Stuck_With_U.mp3";
+import dynamite from "https://github.com/wangrui1573/musify/blob/main/src/audio/Mood.mp3?raw=true";
 import mood from "./audio/Mood.mp3";
 import stuckWithU from "./audio/Stuck_With_U.mp3";
 import cradles from "./audio/Cradles.mp3";
@@ -36,7 +36,7 @@ function chillHop() {
       cover:
         "https://upload.wikimedia.org/wikipedia/en/5/5f/BTS_-_Dynamite_%28official_cover%29.png",
       artist: "BTS",
-      audio: https://github.com/wangrui1573/musify/blob/main/src/audio/Mood.mp3?raw=true,
+      audio: dynamite,
       color: ["#FBE2E6", "#DD5B8C"],
       id: uuidv4(),
       active: false,
