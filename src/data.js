@@ -10,7 +10,7 @@ import skechers from "./audio/Skechers.mp3";
 
 const 爱丫爱丫 = 'https://raw.githubusercontent.com/wangrui1573/musify/main/src/audio/%E7%88%B1%E4%B8%AB%E7%88%B1%E4%B8%AB.flac'
 
-const s = 'https://gitee.com/realwang/realwang/raw/master/01.qilixiang.mp3'
+const s = 'http://ys-c.ys168.com/m/wangrui1573/9lGAF4DlkCL9DRKG69/h2AaMjF-Bc6C8L0TUnAE9a5AdNwh8S/01.qilixiang.mp3'
 
 
 function chillHop() {
