@@ -20,7 +20,6 @@ export default {
   name: 'purchase',
   components: res_components,
 }
-</script>
 
 
 
