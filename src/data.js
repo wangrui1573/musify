@@ -32,11 +32,11 @@ function chillHop() {
       active: true,
     },
     {
-      name: "欢迎Dynamite",
+      name: "测试",
       cover:
         "https://upload.wikimedia.org/wikipedia/en/5/5f/BTS_-_Dynamite_%28official_cover%29.png",
       artist: "BTS",
-      audio: dynamite,
+      audio: https://github.com/wangrui1573/musify/blob/main/src/audio/Mood.mp3?raw=true,
       color: ["#FBE2E6", "#DD5B8C"],
       id: uuidv4(),
       active: false,
