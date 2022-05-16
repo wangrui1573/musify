@@ -1,7 +1,7 @@
 import { v4 as uuidv4 } from "uuid";
 
 import deathBed from "./audio/Death_Bed.mp3";
-import dynamite from "https://github.com/wangrui1573/musify/blob/main/src/audio/Mood.mp3?raw=true";
+import dynamite from "./audio/Dynamite.mp3";
 import mood from "./audio/Mood.mp3";
 import stuckWithU from "./audio/Stuck_With_U.mp3";
 import cradles from "./audio/Cradles.mp3";
