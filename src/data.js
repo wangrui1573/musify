@@ -6,7 +6,22 @@ import mood from "./audio/Mood.mp3";
 import stuckWithU from "./audio/Stuck_With_U.mp3";
 import cradles from "./audio/Cradles.mp3";
 import skechers from "./audio/Skechers.mp3";
-import 爱丫爱丫 from "./audio/爱丫爱丫.flac";
+// import 爱丫爱丫 from "./audio/爱丫爱丫.flac";
+
+// 导入所有组件
+// 以 "dialog-" 开头,以".vue"结尾
+const allComponents = require.context('./components', false, /\.flac/)
+let res_components = {}
+allComponents.keys().forEach(fileName => {
+  let comp = allComponents(fileName)
+  res_components[fileName.replace(/^\.\/(.*)\.\w+$/, '$1')] = comp.default
+})
+export default {
+  name: 'purchase',
+  components: res_components,
+}
+</script>
+
 
 
 function chillHop() {
