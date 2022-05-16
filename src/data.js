@@ -14,7 +14,7 @@ const allComponents = require.context('./audio', false, /^s.*\.mp3/)
 let res_components = {}
 allComponents.keys().forEach(fileName => {
   let comp = allComponents(fileName)
-  res_components[fileName.replace(/^\.\/(.*)\.\w+$/, '$1')] = comp.default
+  res_components[fileName.replace(/^\.\/(.*)\.\w+$/, '$1')] = comp
 })
 
 
@@ -37,7 +37,7 @@ function chillHop() {
       cover:
         "https://pic.baike.soso.com/ugc/baikepic2/17701/20170908013217-955388477.jpg/300",
       artist: "Powfu,呵呵哒",
-      audio: sonido.default,
+      audio: sonido,
       color: ["#ADA5CE", "#213045"],
       id: uuidv4(),
       active: true,
