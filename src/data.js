@@ -6,10 +6,12 @@ import mood from "./audio/Mood.mp3";
 import stuckWithU from "./audio/Stuck_With_U.mp3";
 import cradles from "./audio/Cradles.mp3";
 import skechers from "./audio/Skechers.mp3";
-import 爱丫爱丫 from "./audio/爱丫爱丫.flac";
+//import 爱丫爱丫 from "./audio/爱丫爱丫.flac";
 
 
-import * as components from './audio'
+const ComponentContext = require.context('./', true, /\.flac/i);
+Vue.component(componentName, () => ComponentContext(componentFilePath));
+
 
 
 
@@ -31,7 +33,7 @@ function chillHop() {
       cover:
         "https://pic.baike.soso.com/ugc/baikepic2/17701/20170908013217-955388477.jpg/300",
       artist: "Powfu,呵呵哒",
-      audio: sonido,
+      audio: ./audio/爱丫爱丫.flac,
       color: ["#ADA5CE", "#213045"],
       id: uuidv4(),
       active: true,
