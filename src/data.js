@@ -8,8 +8,7 @@ import cradles from "./audio/Cradles.mp3";
 import skechers from "./audio/Skechers.mp3";
 import 爱丫爱丫 from "./audio/爱丫爱丫.flac";
 
-const s = document.createElement('fs');
-  s.src = './audio/爱丫爱丫.flac';
+const s = './audio/爱丫爱丫.flac'
 
 
 function chillHop() {
