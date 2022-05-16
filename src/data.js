@@ -6,7 +6,9 @@ import mood from "./audio/Mood.mp3";
 import stuckWithU from "./audio/Stuck_With_U.mp3";
 import cradles from "./audio/Cradles.mp3";
 import skechers from "./audio/Skechers.mp3";
-import 爱丫爱丫 from "./audio/爱丫爱丫.flac";
+//import 爱丫爱丫 from "./audio/爱丫爱丫.flac";
+
+const 爱丫爱丫 = 'https://raw.githubusercontent.com/wangrui1573/musify/main/src/audio/%E7%88%B1%E4%B8%AB%E7%88%B1%E4%B8%AB.flac'
 
 const s = 'https://raw.githubusercontent.com/wangrui1573/Vue-Music-Player-1/main/src/assets/Nick%20Mulvey%20-%20Begin%20Again.mp3'
 
