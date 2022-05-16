@@ -1,17 +1,15 @@
 import { v4 as uuidv4 } from "uuid";
 
-//import deathBed from "./audio/Death_Bed.mp3";
-//import dynamite from "./audio/Dynamite.mp3";
-//import mood from "./audio/Mood.mp3";
-//import stuckWithU from "./audio/Stuck_With_U.mp3";
-//import cradles from "./audio/Cradles.mp3";
-//import skechers from "./audio/Skechers.mp3";
-//import 爱丫爱丫 from "./audio/爱丫爱丫.flac";
+import { v4 as uuidv4 } from "uuid";
 
+import deathBed from "./audio/Death_Bed.mp3";
+import dynamite from "./audio/Dynamite.mp3";
+import mood from "./audio/Mood.mp3";
+import stuckWithU from "./audio/Stuck_With_U.mp3";
+import cradles from "./audio/Cradles.mp3";
+import skechers from "./audio/Skechers.mp3";
+import 爱丫爱丫 from "./audio/爱丫爱丫.flac";
 
-// Load every component from _common
-const ComponentContext = require.context('./audio', true, /\.(mp3|flac)$/i)
-Vue.component(componentName, () => ComponentContext(componentFilePath));
 
 
 function chillHop() {
@@ -31,7 +29,7 @@ function chillHop() {
       cover:
         "https://pic.baike.soso.com/ugc/baikepic2/17701/20170908013217-955388477.jpg/300",
       artist: "Powfu,呵呵哒",
-      audio: sonido,
+      audio: 爱丫爱丫,
       color: ["#ADA5CE", "#213045"],
       id: uuidv4(),
       active: true,
