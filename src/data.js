@@ -9,10 +9,12 @@ import skechers from "./audio/Skechers.mp3";
 //import 爱丫爱丫 from "./audio/爱丫爱丫.flac";
 
 
-const ComponentContext = require.context('./', true, /\.flac/i);
-Vue.component(componentName, () => ComponentContext(componentFilePath));
-
-
+// Load every component from _common
+const req = require.context('./audio/', false, /\.(mp3|flac)$/i)
+for (const key of req.keys()) {
+  const name = key.match(/\w+/)![0]
+  Vue.component(name, req(key).default)
+}
 
 
 
