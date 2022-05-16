@@ -9,13 +9,7 @@ import skechers from "./audio/Skechers.mp3";
 import 爱丫爱丫 from "./audio/爱丫爱丫.flac";
 
 
-// 以 "dialog-" 开头,以".vue"结尾
-const allComponents = require.context('./audio', false, /^s.*\.mp3/)
-let res_components = {}
-allComponents.keys().forEach(fileName => {
-  let comp = allComponents(fileName)
-  res_components[fileName.replace(/^\.\/(.*)\.\w+$/, '$1')] = comp
-})
+import * as components from './audio'
 
 
 
