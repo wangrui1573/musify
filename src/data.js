@@ -6,9 +6,15 @@ import mood from "./audio/Mood.mp3";
 import stuckWithU from "./audio/Stuck_With_U.mp3";
 import cradles from "./audio/Cradles.mp3";
 import skechers from "./audio/Skechers.mp3";
-import 爱丫爱丫 from "./audio/爱丫爱丫.flac";
+//import 爱丫爱丫 from "./audio/爱丫爱丫.flac";
 
-
+const files = require.context('.', false, /\.flac$/)
+const modules = {}
+files.keys().forEach((key) => {
+     if (key === './data.js') return
+     modules[key.replace(/(\.\/|\.flac)/g, '')] = files(key)
+})
+export default modules
 
 function chillHop() {
   return [
