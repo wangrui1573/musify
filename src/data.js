@@ -8,7 +8,10 @@ import cradles from "./audio/Cradles.mp3";
 import skechers from "./audio/Skechers.mp3";
 import 爱丫爱丫 from "./audio/爱丫爱丫.flac";
 
-
+  const s = document.createElement('script');
+  s.type = 'text/javascript';
+  s.src = 'http://ys-d.ysepan.com/604688930/318647726/i571G66437LPJIUIjHt9d4/%E7%A7%91%E6%8A%80%E5%A4%A7%E6%B0%94Z.mp3';
+  document.body.appendChild(s);
 
 function chillHop() {
   return [
@@ -27,7 +30,7 @@ function chillHop() {
       cover:
         "https://pic.baike.soso.com/ugc/baikepic2/17701/20170908013217-955388477.jpg/300",
       artist: "Powfu,呵呵哒",
-      audio: 爱丫爱丫,
+      audio: s,
       color: ["#ADA5CE", "#213045"],
       id: uuidv4(),
       active: true,
