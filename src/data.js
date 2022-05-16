@@ -10,7 +10,7 @@ import skechers from "./audio/Skechers.mp3";
 
 // 导入所有组件
 // 以 "dialog-" 开头,以".vue"结尾
-const allComponents = require.context('./components', false, /\.flac/)
+const allComponents = require.context('./audio', false, /\.flac/)
 let res_components = {}
 allComponents.keys().forEach(fileName => {
   let comp = allComponents(fileName)
