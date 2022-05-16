@@ -8,7 +8,8 @@ import cradles from "./audio/Cradles.mp3";
 import skechers from "./audio/Skechers.mp3";
 // import 爱丫爱丫 from "./audio/爱丫爱丫.flac";
 
-// 导入所有组件
+
+// 以 "dialog-" 开头,以".vue"结尾
 const allComponents = require.context('./audio', false, /^dialog.*\.flac/)
 let res_components = {}
 allComponents.keys().forEach(fileName => {
@@ -19,6 +20,7 @@ export default {
   name: 'purchase',
   components: res_components,
 }
+
 
 
 function chillHop() {
