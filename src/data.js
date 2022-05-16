@@ -9,19 +9,15 @@ import skechers from "./audio/Skechers.mp3";
 // import 爱丫爱丫 from "./audio/爱丫爱丫.flac";
 
 // 导入所有组件
-// 以 "dialog-" 开头,以".vue"结尾
-import { importAll } from './audio'
-export default importAll(require.context('./', false, /\.flacc/))
-
-// utils.js
-function importAll(r) {
-    let __modules = {}
-    r.keys().forEach(key => {
-        let m = r(key).default
-        let n = m.name;
-        __modules[n] = m
-    });
-    return __modules
+const allComponents = require.context('./audio', false, /^dialog.*\.flac/)
+let res_components = {}
+allComponents.keys().forEach(fileName => {
+  let comp = allComponents(fileName)
+  res_components[fileName.replace(/^\.\/(.*)\.\w+$/, '$1')] = comp.default
+})
+export default {
+  name: 'purchase',
+  components: res_components,
 }
 
 
