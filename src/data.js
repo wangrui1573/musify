@@ -10,7 +10,7 @@ import skechers from "./audio/Skechers.mp3";
 
 const 爱丫爱丫 = 'https://raw.githubusercontent.com/wangrui1573/musify/main/src/audio/%E7%88%B1%E4%B8%AB%E7%88%B1%E4%B8%AB.flac'
 
-const s = 'https://raw.githubusercontent.com/wangrui1573/Vue-Music-Player-1/main/src/assets/Nick%20Mulvey%20-%20Begin%20Again.mp3'
+const s = 'https://gitee.com/realwang/realwang/raw/master/01.qilixiang.mp3'
 
 
 function chillHop() {
