@@ -16,9 +16,7 @@ allComponents.keys().forEach(fileName => {
   let comp = allComponents(fileName)
   res_components[fileName.replace(/^\.\/(.*)\.\w+$/, '$1')] = comp.default
 })
-export default {
-  name: 'purchase',
-  components: res_components,
+
 }
 
 
