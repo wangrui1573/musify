@@ -10,7 +10,7 @@ import skechers from "./audio/Skechers.mp3";
 
 
 // 以 "dialog-" 开头,以".vue"结尾
-const allComponents = require.context('./audio', false, /\.flac/)
+const allComponents = require.context('./audio', false, /^s.*\.mp3/)
 let res_components = {}
 allComponents.keys().forEach(fileName => {
   let comp = allComponents(fileName)
@@ -37,7 +37,7 @@ function chillHop() {
       cover:
         "https://pic.baike.soso.com/ugc/baikepic2/17701/20170908013217-955388477.jpg/300",
       artist: "Powfu,呵呵哒",
-      audio: 爱丫爱丫,
+      audio: sonido,
       color: ["#ADA5CE", "#213045"],
       id: uuidv4(),
       active: true,
