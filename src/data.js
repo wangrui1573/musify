@@ -6,7 +6,7 @@ import skechers from "./audio/Skechers.mp3";
 
 const 爱丫爱丫 = 'https://raw.githubusercontent.com/wangrui1573/musify/main/src/audio/%E7%88%B1%E4%B8%AB%E7%88%B1%E4%B8%AB.flac'
 
-const 凉凉 = 'https://raw.githubusercontent.com/wangrui1573/media/main/music/%E5%87%89%E5%87%89.mp3'
+const 红色高跟鞋 = 'https://a.real7.ml/music/%E7%BA%A2%E8%89%B2%E9%AB%98%E8%B7%9F%E9%9E%8B.mp3'
 
 
 function chillHop() {
@@ -22,11 +22,11 @@ function chillHop() {
       active: true,
     },
     {
-      name: "爱丫爱丫",
+      name: "红色高跟鞋",
       cover:
         "https://pic.baike.soso.com/ugc/baikepic2/17701/20170908013217-955388477.jpg/300",
-      artist: "Powfu,呵呵哒",
-      audio: 凉凉,
+      artist: "蔡健雅",
+      audio: 红色高跟鞋,
       color: ["#ADA5CE", "#213045"],
       id: uuidv4(),
       active: true,
