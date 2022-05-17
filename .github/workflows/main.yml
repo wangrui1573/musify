@@ -26,9 +26,9 @@ jobs:
       uses: actions/setup-node@v2
       with:
         node-version: ${{ matrix.node-version }}
-    - run: npm install
-    - run: npm run test:unit
-    - run: npm run build --if-present
+    - run: yarn run build
+    - run: yarn global add serve
+    - run: serve -s build
     
     - name: 📂 Deploy
       uses: peaceiris/actions-gh-pages@v3
