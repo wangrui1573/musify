@@ -4,15 +4,15 @@ import { v4 as uuidv4 } from "uuid";
 import skechers from "./audio/Skechers.mp3";
 //import 爱丫爱丫 from "./audio/爱丫爱丫.flac";
 
-const 爱丫爱丫 = 'https://raw.githubusercontent.com/wangrui1573/musify/main/src/audio/%E7%88%B1%E4%B8%AB%E7%88%B1%E4%B8%AB.flac'
-
+const 爱丫爱丫 = 'https://raw.githubusercontent.com/wangrui1573/media/main/music/%E7%88%B1%E4%B8%AB%E7%88%B1%E4%B8%AB.flac'
+const 凉凉 = 'https://raw.githubusercontent.com/wangrui1573/media/main/music/%E5%87%89%E5%87%89.mp3'
 const 红色高跟鞋 = 'https://cdn-109.bayfiles.com/R2Kei2hbye/47a30bf1-1652753332/%E7%BA%A2%E8%89%B2%E9%AB%98%E8%B7%9F%E9%9E%8B.mp3'
 
 
 function chillHop() {
   return [
      {
-      name: "爱丫爱丫2",
+      name: "爱丫爱丫",
       cover:
         "https://upload.wikimedia.org/wikipedia/zh/4/4d/16%E6%9C%AA%E6%88%90%E5%B9%B4.jpg",
       artist: "BY2 十六岁未成年",
@@ -32,11 +32,11 @@ function chillHop() {
       active: true,
     },
     {
-      name: "测试",
+      name: "凉凉",
       cover:
         "https://upload.wikimedia.org/wikipedia/en/5/5f/BTS_-_Dynamite_%28official_cover%29.png",
       artist: "BTS",
-      audio: skechers,
+      audio: 凉凉,
       color: ["#FBE2E6", "#DD5B8C"],
       id: uuidv4(),
       active: false,
