@@ -15,23 +15,25 @@ jobs:
 
 
     steps:
-    - name: 🚚 Get latest code
+    - name: 🚚 1.Get latest code
       uses: actions/checkout@v2
     - run: echo 'VUE_APP_DEFAULT_CONFIG_URL=${{ secrets.ENV_DEFAULT_CONFIG_URL }}' > .env
     
-    - name: 🚚 Get latest code
+    - name: 🚚 2.yarn install
     - uses: borales/actions-yarn@v2.3.0
       with:
         cmd: install # will run `yarn install` command
+    - name: 🚚 3.yarn build
     - uses: borales/actions-yarn@v2.3.0
       with:
           cmd: build # will run `yarn build` command
+    - name: 🚚 4.yarn serve
     - uses: borales/actions-yarn@v2.3.0
       with:
           cmd: global add serve # will run `yarn test` command
     
-    - name: 📂 Deploy
+    - name: 📂 5.Deploy-gh-pages
       uses: peaceiris/actions-gh-pages@v3
       with:
         github_token: ${{ secrets.GITHUB_TOKEN }}
-        publish_dir: ./
+        publish_dir: /
