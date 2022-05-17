@@ -12,10 +12,7 @@ jobs:
     name: 🎉 Deploy
     runs-on: ubuntu-latest
 
-    strategy:
-      matrix:
-        node-version: [14.x]
-        # See supported Node.js release schedule at https://nodejs.org/en/about/releases/
+
 
     steps:
     - name: 🚚 Get latest code
@@ -30,7 +27,7 @@ jobs:
           cmd: build # will run `yarn build` command
     - uses: borales/actions-yarn@v2.3.0
       with:
-          cmd: test # will run `yarn test` command
+          cmd: global add serve # will run `yarn test` command
     
     - name: 📂 Deploy
       uses: peaceiris/actions-gh-pages@v3
