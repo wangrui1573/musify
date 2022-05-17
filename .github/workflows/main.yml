@@ -30,11 +30,13 @@ jobs:
 
     - uses: borales/actions-yarn@v2.3.0
       with:
-          cmd: export # will run `yarn test` command
+          cmd: global add serve # will run `yarn test` command
     
     - name: 📂 5.Deploy-gh-pages
       uses: peaceiris/actions-gh-pages@v3
       with:
         github_token: ${{ secrets.GITHUB_TOKEN }}
+        publish_dir: ./build
+
         keep_files: true
 
