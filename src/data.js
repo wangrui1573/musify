@@ -6,7 +6,7 @@ import skechers from "./audio/Skechers.mp3";
 
 const 爱丫爱丫 = 'https://raw.githubusercontent.com/wangrui1573/musify/main/src/audio/%E7%88%B1%E4%B8%AB%E7%88%B1%E4%B8%AB.flac'
 
-const 红色高跟鞋 = 'https://a.real7.ml/music/%E7%BA%A2%E8%89%B2%E9%AB%98%E8%B7%9F%E9%9E%8B.mp3'
+const 红色高跟鞋 = 'https://cdn-109.bayfiles.com/R2Kei2hbye/47a30bf1-1652753332/%E7%BA%A2%E8%89%B2%E9%AB%98%E8%B7%9F%E9%9E%8B.mp3'
 
 
 function chillHop() {
