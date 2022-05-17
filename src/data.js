@@ -6,7 +6,7 @@ import skechers from "./audio/Skechers.mp3";
 
 const 爱丫爱丫 = 'https://raw.githubusercontent.com/wangrui1573/musify/main/src/audio/%E7%88%B1%E4%B8%AB%E7%88%B1%E4%B8%AB.flac'
 
-const 凉凉 = 'https://github.com/wangrui1573/media/raw/main/music/%E5%87%89%E5%87%89.mp3'
+const 凉凉 = 'https://raw.githubusercontent.com/wangrui1573/media/main/music/%E5%87%89%E5%87%89.mp3'
 
 
 function chillHop() {
