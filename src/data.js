@@ -15,7 +15,7 @@ function chillHop() {
      {
       name: "爱丫爱丫",
       cover:
-        "https://upload.wikimedia.org/wikipedia/zh/4/4d/16%E6%9C%AA%E6%88%90%E5%B9%B4.jpg",
+        "http://p2.music.126.net/DGMOvGYBjOfBKNkMBnC7ug==/19196373509643886.jpg",
       artist: "BY2 十六岁未成年",
       audio: 爱丫爱丫,
       color: ["#ADA5CE", "#213045"],
@@ -35,7 +35,7 @@ function chillHop() {
     {
       name: "凉凉",
       cover:
-        "https://upload.wikimedia.org/wikipedia/en/5/5f/BTS_-_Dynamite_%28official_cover%29.png",
+        "https://p1.music.126.net/iJXQigYKHNhTIsLsCddHwA==/109951167254901211.jpg?param=180y180&playlist=2361162900",
       artist: "BTS",
       audio: 凉凉,
       color: ["#FBE2E6", "#DD5B8C"],
@@ -45,7 +45,7 @@ function chillHop() {
     {
       name: "无人之岛",
       cover:
-        "https://upload.wikimedia.org/wikipedia/en/1/1d/24kGoldn_-_Mood.png",
+        "./null.png",
       artist: "24kgoldn",
       audio: 无人之岛,
       color: ["#D888D3", "#070922"],
