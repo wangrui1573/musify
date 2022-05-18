@@ -2,11 +2,13 @@ import { v4 as uuidv4 } from "uuid";
 
 
 import skechers from "./audio/Skechers.mp3";
-import 爱丫爱丫 from "./audio/爱丫爱丫.flac";
 import Mojito from "./audio/Mojito.flac";
 import 凉凉 from "./audio/凉凉.mp3";
 import 红色高跟鞋 from "./audio/红色高跟鞋.mp3";
 import 无人之岛 from "./audio/无人之岛.mp3";
+
+const 爱丫爱丫 = 'https://file.real9.cn/api?raw=true&path=/music/%E7%88%B1%E4%B8%AB%E7%88%B1%E4%B8%AB.flac'
+
 
 
 
