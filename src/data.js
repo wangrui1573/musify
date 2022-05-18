@@ -2,9 +2,9 @@ import { v4 as uuidv4 } from "uuid";
 
 
 import skechers from "./audio/Skechers.mp3";
-//import 爱丫爱丫 from "./audio/爱丫爱丫.flac";
-const Mojito =  'https://file.real9.cn/api/name/Mojito.flac?path=/music/Mojito.flac'
-const 爱丫爱丫 = 'https://file.real9.cn/api/name/Mojito.flac?path=/music/Mojito.flac'
+import 爱丫爱丫 from "./audio/爱丫爱丫.flac";
+import Mojito from "./audio/Mojito.flac";
+
 
 const 凉凉 = 'https://raw.githubusercontent.com/wangrui1573/media/main/music/%E5%87%89%E5%87%89.mp3'
 const 红色高跟鞋 = 'https://raw.githubusercontent.com/wangrui1573/media/main/music/%E7%BA%A2%E8%89%B2%E9%AB%98%E8%B7%9F%E9%9E%8B.mp3'
