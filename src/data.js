@@ -36,7 +36,7 @@ function chillHop() {
       name: "凉凉",
       cover:
         "https://p1.music.126.net/iJXQigYKHNhTIsLsCddHwA==/109951167254901211.jpg?param=180y180&playlist=2361162900",
-      artist: "BTS",
+      artist: "三生三世十里桃花",
       audio: 凉凉,
       color: ["#FBE2E6", "#DD5B8C"],
       id: uuidv4(),
@@ -46,7 +46,7 @@ function chillHop() {
       name: "无人之岛",
       cover:
         "https://file.real9.cn/api/raw/?path=/music/null.png",
-      artist: "24kgoldn",
+      artist: "任？",
       audio: 无人之岛,
       color: ["#D888D3", "#070922"],
       id: uuidv4(),
