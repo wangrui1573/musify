@@ -1,7 +1,12 @@
-on:
-  deployment
 
-name: 🚀 Deploy website on push
+name: 🚀 Deploy music.real6.ml
+on:
+  workflow_run:
+    workflows: ["生成静态文件"]
+    branches: [main]
+    types: 
+      - completed
+
 jobs:
   web-deploy:
     name: 🎉 Deploy 部署到music.real6.ml
