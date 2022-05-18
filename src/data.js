@@ -5,11 +5,10 @@ import skechers from "./audio/Skechers.mp3";
 import 爱丫爱丫 from "./audio/爱丫爱丫.flac";
 import Mojito from "./audio/Mojito.flac";
 import 凉凉 from "./audio/凉凉.mp3";
+import 红色高跟鞋 from "./audio/红色高跟鞋.mp3";
+import 无人之岛 from "./audio/无人之岛.mp3";
 
 
-
-const 红色高跟鞋 = 'https://raw.githubusercontent.com/wangrui1573/media/main/music/%E7%BA%A2%E8%89%B2%E9%AB%98%E8%B7%9F%E9%9E%8B.mp3'
-const 无人之岛 = 'http://realwang.eu5.org/music/%E6%97%A0%E4%BA%BA%E4%B9%8B%E5%B2%9B.mp3'
 
 function chillHop() {
   return [
@@ -26,7 +25,7 @@ function chillHop() {
     {
       name: "红色高跟鞋",
       cover:
-        "https://pic.baike.soso.com/ugc/baikepic2/17701/20170908013217-955388477.jpg/300",
+        "http://p1.music.126.net/jJOaqlez9x5VofjgB7B_Bw==/109951166195459631.jpg",
       artist: "蔡健雅",
       audio: 红色高跟鞋,
       color: ["#ADA5CE", "#213045"],
