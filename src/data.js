@@ -45,7 +45,7 @@ function chillHop() {
     {
       name: "无人之岛",
       cover:
-        "./null.png",
+        "https://file.real9.cn/api/raw/?path=/music/null.png",
       artist: "24kgoldn",
       audio: 无人之岛,
       color: ["#D888D3", "#070922"],
