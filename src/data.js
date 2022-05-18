@@ -3,8 +3,9 @@ import { v4 as uuidv4 } from "uuid";
 
 import skechers from "./audio/Skechers.mp3";
 //import 爱丫爱丫 from "./audio/爱丫爱丫.flac";
+const Mojito =  'https://onedrive-vercel-index-phi-tan.vercel.app/api/raw/?path=/music/Mojito.flac'
+const 爱丫爱丫 = 'https://onedrive-vercel-index-phi-tan.vercel.app/api/raw/?path=/music/%E7%88%B1%E4%B8%AB%E7%88%B1%E4%B8%AB.flac'
 
-const 爱丫爱丫 = 'http://real.eu5.org/music/%E7%88%B1%E4%B8%AB%E7%88%B1%E4%B8%AB.flac'
 const 凉凉 = 'https://raw.githubusercontent.com/wangrui1573/media/main/music/%E5%87%89%E5%87%89.mp3'
 const 红色高跟鞋 = 'https://raw.githubusercontent.com/wangrui1573/media/main/music/%E7%BA%A2%E8%89%B2%E9%AB%98%E8%B7%9F%E9%9E%8B.mp3'
 const 无人之岛 = 'http://realwang.eu5.org/music/%E6%97%A0%E4%BA%BA%E4%B9%8B%E5%B2%9B.mp3'
@@ -52,11 +53,11 @@ function chillHop() {
       active: false,
     },
     {
-      name: "第四Stuck with U",
+      name: "Mojito",
       cover:
         "https://img.alicdn.com/bao/uploaded/i1/2172427566/O1CN01kf4vBN25lHBrauwWP_!!0-item_pic.jpg",
-      artist: "张三 李四",
-      audio: skechers,
+      artist: "周杰伦",
+      audio: Mojito,
       color: ["#F6F6EE", "#888984"],
       id: uuidv4(),
       active: false,
