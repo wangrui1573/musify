@@ -4,9 +4,10 @@ import { v4 as uuidv4 } from "uuid";
 import skechers from "./audio/Skechers.mp3";
 import 爱丫爱丫 from "./audio/爱丫爱丫.flac";
 import Mojito from "./audio/Mojito.flac";
+import 凉凉 from "./audio/凉凉.mp3";
 
 
-const 凉凉 = 'https://raw.githubusercontent.com/wangrui1573/media/main/music/%E5%87%89%E5%87%89.mp3'
+
 const 红色高跟鞋 = 'https://raw.githubusercontent.com/wangrui1573/media/main/music/%E7%BA%A2%E8%89%B2%E9%AB%98%E8%B7%9F%E9%9E%8B.mp3'
 const 无人之岛 = 'http://realwang.eu5.org/music/%E6%97%A0%E4%BA%BA%E4%B9%8B%E5%B2%9B.mp3'
 
