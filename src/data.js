@@ -19,7 +19,7 @@ function chillHop() {
       cover:
         "http://p2.music.126.net/DGMOvGYBjOfBKNkMBnC7ug==/19196373509643886.jpg",
       audio:
-        "https://file.real9.cn/api?raw=true&path=/music/%E7%88%B1%E4%B8%AB%E7%88%B1%E4%B8%AB.flac",
+        "https://public.bn.files.1drv.com/y4mq2ihSL6jF7SDNdeDCX8LzADjHRpvC6xUGLrTTrjyop5BQXOe8qQ3wZ3tszz0dlvEqQ1AXfZRfiHQXVkvqeVfNYqLU0HmQk98GjBZ4W8Pw9RD2pcMTXC1PUvXVid9RErp3yz1PJiPH98K8vzV9Ps-xO7ECresSVtzZEgnjehLue56qJZwwbWCMSJfYud58GAmfcuSV_Uu6tdhpdMdKiLu7Na8dOj5W0CUvNqCjS-CtvU",
       artist: "BY2 十六岁未成年",
       //audio: 爱丫爱丫,
       color: ["#ADA5CE", "#213045"],
