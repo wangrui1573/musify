@@ -1,5 +1,5 @@
 import { v4 as uuidv4 } from "uuid";
-import nullcover from "./null.png";
+import nullcover from "./null.jpg";
 
 import skechers from "./audio/Skechers.mp3";
 import Mojito from "./audio/Mojito.flac";
