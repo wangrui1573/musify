@@ -68,11 +68,12 @@ function chillHop() {
       active: false,
     },
     {
-      name: "Cradles",
+      name: "Letting Go",
       cover:
-        "https://shdbdecdnems09.cdnsrv.jio.com/c.saavncdn.com/585/Cradles-English-2019-20191028124508-500x500.jpg",
-      artist: "Sub Urban",
-      audio: skechers,
+        "http://p2.music.126.net/VTZde5VdBm_u2WH0Pc9HQQ==/109951165561227373.jpg",
+      artist: "蔡健雅",
+      audio: 
+        "https://music.real6.ml/file/media/music/%E8%94%A1%E5%81%A5%E9%9B%85-Letting%20Go.mp3",
       color: ["#EDDD86", "#4A5760"],
       id: uuidv4(),
       active: false,
