@@ -6,6 +6,7 @@ import Mojito from "./audio/Mojito.flac";
 import 凉凉 from "./audio/凉凉.mp3";
 import 红色高跟鞋 from "./audio/红色高跟鞋.mp3";
 import 无人之岛 from "./audio/无人之岛.mp3";
+import nullcover from "./null.png";
 
 //const 爱丫爱丫 = 'https://file.real9.cn/api?raw=true&path=/music/%E7%88%B1%E4%B8%AB%E7%88%B1%E4%B8%AB.flac'
 
@@ -19,7 +20,7 @@ function chillHop() {
       cover:
         "http://p2.music.126.net/DGMOvGYBjOfBKNkMBnC7ug==/19196373509643886.jpg",
       audio:
-        "https://public.bn.files.1drv.com/y4mq2ihSL6jF7SDNdeDCX8LzADjHRpvC6xUGLrTTrjyop5BQXOe8qQ3wZ3tszz0dlvEqQ1AXfZRfiHQXVkvqeVfNYqLU0HmQk98GjBZ4W8Pw9RD2pcMTXC1PUvXVid9RErp3yz1PJiPH98K8vzV9Ps-xO7ECresSVtzZEgnjehLue56qJZwwbWCMSJfYud58GAmfcuSV_Uu6tdhpdMdKiLu7Na8dOj5W0CUvNqCjS-CtvU",
+        "https://file.real9.cn/api?raw=true&path=/music/%E7%88%B1%E4%B8%AB%E7%88%B1%E4%B8%AB.flac",
       artist: "BY2 十六岁未成年",
       //audio: 爱丫爱丫,
       color: ["#ADA5CE", "#213045"],
@@ -48,8 +49,7 @@ function chillHop() {
     },
     {
       name: "无人之岛",
-      cover:
-        "https://file.real9.cn/api/raw/?path=/music/null.png",
+      cover: nullcover,
       artist: "任？",
       audio: 无人之岛,
       color: ["#D888D3", "#070922"],
