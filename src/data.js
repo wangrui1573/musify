@@ -6,7 +6,7 @@ import Mojito from "./audio/Mojito.flac";
 import 凉凉 from "./audio/凉凉.mp3";
 import 红色高跟鞋 from "./audio/红色高跟鞋.mp3";
 import 无人之岛 from "./audio/无人之岛.mp3";
-import 爱丫爱丫 from "./audio/爱丫爱丫.flac";
+//import 爱丫爱丫 from "./audio/爱丫爱丫.flac";
 
 
 //const 爱丫爱丫 = 'https://file.real9.cn/api?raw=true&path=/music/%E7%88%B1%E4%B8%AB%E7%88%B1%E4%B8%AB.flac'
@@ -20,10 +20,10 @@ function chillHop() {
       name: "爱丫爱丫",
       cover:
         "http://p2.music.126.net/DGMOvGYBjOfBKNkMBnC7ug==/19196373509643886.jpg",
-      //audio:
-      //  "https://file.real9.cn/api?raw=true&path=/music/%E7%88%B1%E4%B8%AB%E7%88%B1%E4%B8%AB.flac",
+      audio:
+        "https://music.real6.ml/file/media/music/%E7%88%B1%E4%B8%AB%E7%88%B1%E4%B8%AB.mp3",
       artist: "BY2 十六岁未成年",
-      audio: 爱丫爱丫,
+      //audio: 爱丫爱丫,
       color: ["#ADA5CE", "#213045"],
       id: uuidv4(),
       active: true,
