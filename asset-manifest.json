@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/static/css/main.709fc790.chunk.css",
-    "main.js": "/static/js/main.b35854af.chunk.js",
-    "main.js.map": "/static/js/main.b35854af.chunk.js.map",
+    "main.js": "/static/js/main.16bb3b5f.chunk.js",
+    "main.js.map": "/static/js/main.16bb3b5f.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.9a28dac3.js",
     "runtime-main.js.map": "/static/js/runtime-main.9a28dac3.js.map",
     "static/js/2.c40d1957.chunk.js": "/static/js/2.c40d1957.chunk.js",
@@ -15,13 +15,12 @@
     "static/media/null.a18ec41e.jpg": "/static/media/null.a18ec41e.jpg",
     "static/media/凉凉.2eabb5a2.mp3": "/static/media/凉凉.2eabb5a2.mp3",
     "static/media/无人之岛.b5d633d0.mp3": "/static/media/无人之岛.b5d633d0.mp3",
-    "static/media/爱丫爱丫.cc081276.flac": "/static/media/爱丫爱丫.cc081276.flac",
     "static/media/红色高跟鞋.5412f8de.mp3": "/static/media/红色高跟鞋.5412f8de.mp3"
   },
   "entrypoints": [
     "static/js/runtime-main.9a28dac3.js",
     "static/js/2.c40d1957.chunk.js",
     "static/css/main.709fc790.chunk.css",
-    "static/js/main.b35854af.chunk.js"
+    "static/js/main.16bb3b5f.chunk.js"
   ]
 }
