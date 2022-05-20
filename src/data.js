@@ -16,6 +16,17 @@ import 无人之岛 from "./audio/无人之岛.mp3";
 
 function chillHop() {
   return [
+    {
+      name: "如愿",
+      cover:
+        "http://p2.music.126.net/NQRlDm-TIhAxJUVQ5twdFw==/109951166565889806.jpg",
+      artist: "王菲",
+      audio: 
+      "https://music.real6.ml/file/media/music/%E5%A6%82%E6%84%BF.mp3",
+      color: ["#DEC254", "#E18BB5"],
+      id: uuidv4(),
+      active: false,
+    },
      {
       name: "爱丫爱丫",
       cover:
@@ -79,86 +90,29 @@ function chillHop() {
       active: false,
     },
     {
-      name: "d第五Skechers",
+      name: "修炼爱情",
       cover:
         "https://shdbdecdnems04.cdnsrv.jio.com/c.saavncdn.com/296/Skechers-English-2020-20200403180832-500x500.jpg",
-      artist: "DripReport",
-      audio: skechers,
+      artist: "林俊杰",
+      audio: 
+      "https://music.real6.ml/file/media/music/%E4%BF%AE%E7%82%BC%E7%88%B1%E6%83%85.mp3",
       color: ["#DEC254", "#E18BB5"],
       id: uuidv4(),
       active: false,
     },
     {
-      name: "歌曲名称",
+      name: "偏爱",
       cover:
-      "https://shdbdecdnems04.cdnsrv.jio.com/c.saavncdn.com/296/Skechers-English-2020-20200403180832-500x500.jpg",
-      artist: "歌手，专辑",
-      audio: skechers,
+        "https://shdbdecdnems04.cdnsrv.jio.com/c.saavncdn.com/296/Skechers-English-2020-20200403180832-500x500.jpg",
+      artist: "张芸京",
+      audio: 
+      "https://music.real6.ml/file/media/music/%E5%81%8F%E7%88%B1.mp3",
       color: ["#DEC254", "#E18BB5"],
       id: uuidv4(),
       active: false,
     },
 
-    {
-      name: "歌曲名称",
-      cover:
-      "https://shdbdecdnems04.cdnsrv.jio.com/c.saavncdn.com/296/Skechers-English-2020-20200403180832-500x500.jpg",
-      artist: "歌手，专辑",
-      audio: skechers,
-      color: ["#DEC254", "#E18BB5"],
-      id: uuidv4(),
-      active: false,
-    },
-    {
-      name: "歌曲名称",
-      cover:
-      "https://shdbdecdnems04.cdnsrv.jio.com/c.saavncdn.com/296/Skechers-English-2020-20200403180832-500x500.jpg",
-      artist: "歌手，专辑",
-      audio: skechers,
-      color: ["#DEC254", "#E18BB5"],
-      id: uuidv4(),
-      active: false,
-    },
-    {
-      name: "歌曲名称",
-      cover:
-      "https://shdbdecdnems04.cdnsrv.jio.com/c.saavncdn.com/296/Skechers-English-2020-20200403180832-500x500.jpg",
-      artist: "歌手，专辑",
-      audio: skechers,
-      color: ["#DEC254", "#E18BB5"],
-      id: uuidv4(),
-      active: false,
-    },
-    {
-      name: "歌曲名称",
-      cover:
-      "https://shdbdecdnems04.cdnsrv.jio.com/c.saavncdn.com/296/Skechers-English-2020-20200403180832-500x500.jpg",
-      artist: "歌手，专辑",
-      audio: skechers,
-      color: ["#DEC254", "#E18BB5"],
-      id: uuidv4(),
-      active: false,
-    },
-    {
-      name: "歌曲名称",
-      cover:
-      "https://shdbdecdnems04.cdnsrv.jio.com/c.saavncdn.com/296/Skechers-English-2020-20200403180832-500x500.jpg",
-      artist: "歌手，专辑",
-      audio: skechers,
-      color: ["#DEC254", "#E18BB5"],
-      id: uuidv4(),
-      active: false,
-    },
-    {
-      name: "歌曲名称",
-      cover:
-      "https://shdbdecdnems04.cdnsrv.jio.com/c.saavncdn.com/296/Skechers-English-2020-20200403180832-500x500.jpg",
-      artist: "歌手，专辑",
-      audio: skechers,
-      color: ["#DEC254", "#E18BB5"],
-      id: uuidv4(),
-      active: false,
-    },
+
     
   ];
 }
