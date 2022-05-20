@@ -62,7 +62,7 @@ function chillHop() {
     {
       name: "无人之岛",
       cover: nullcover,
-      artist: "任？",
+      artist: "任然",
       audio: 无人之岛,
       color: ["#D888D3", "#070922"],
       id: uuidv4(),
@@ -92,7 +92,7 @@ function chillHop() {
     {
       name: "修炼爱情",
       cover:
-        "https://shdbdecdnems04.cdnsrv.jio.com/c.saavncdn.com/296/Skechers-English-2020-20200403180832-500x500.jpg",
+        "http://p2.music.126.net/D_hiKMwrdQlqD36LoKLO2w==/109951163187408030.jpg",
       artist: "林俊杰",
       audio: 
       "https://music.real6.ml/file/media/music/%E4%BF%AE%E7%82%BC%E7%88%B1%E6%83%85.mp3",
@@ -103,7 +103,7 @@ function chillHop() {
     {
       name: "偏爱",
       cover:
-        "https://shdbdecdnems04.cdnsrv.jio.com/c.saavncdn.com/296/Skechers-English-2020-20200403180832-500x500.jpg",
+        "http://p1.music.126.net/a4KYp477snGHe3ZyjVpe1w==/109951165351505570.jpg",
       artist: "张芸京",
       audio: 
       "https://music.real6.ml/file/media/music/%E5%81%8F%E7%88%B1.mp3",
