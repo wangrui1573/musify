@@ -6,6 +6,7 @@ import Mojito from "./audio/Mojito.flac";
 import 凉凉 from "./audio/凉凉.mp3";
 import 红色高跟鞋 from "./audio/红色高跟鞋.mp3";
 import 无人之岛 from "./audio/无人之岛.mp3";
+import 光的反向 from "./audio/光的方向.mp3";
 //import 爱丫爱丫 from "./audio/爱丫爱丫.flac";
 
 
@@ -16,6 +17,15 @@ import 无人之岛 from "./audio/无人之岛.mp3";
 
 function chillHop() {
   return [
+    {
+      name: "光的方向",
+      cover: nullcover,
+      artist: "张碧晨",
+      audio: 光的反向,
+      color: ["#DEC254", "#E18BB5"],
+      id: uuidv4(),
+      active: false,
+    },
     {
       name: "如愿",
       cover:
